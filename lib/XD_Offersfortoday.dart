@@ -281,7 +281,8 @@ class XD_Offersfortoday extends StatelessWidget {
               height: 167.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/spotifyoffersfortoday.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -312,7 +313,8 @@ class XD_Offersfortoday extends StatelessWidget {
               height: 166.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/playstoreoffersfortoday.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -343,7 +345,8 @@ class XD_Offersfortoday extends StatelessWidget {
               height: 146.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/amazonoffersfortoday.png'),
                   fit: BoxFit.fill,
                 ),
               ),

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
-
 class XD_Welcome1 extends StatelessWidget {
   XD_Welcome1({
     Key key,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: const Color(0xffffffff),
       body: Stack(
@@ -33,7 +33,8 @@ class XD_Welcome1 extends StatelessWidget {
                   height: 314.0,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: const AssetImage(''),
+                      image:
+                          const AssetImage('assets/images/logofifthpage.png'),
                       fit: BoxFit.fill,
                     ),
                   ),

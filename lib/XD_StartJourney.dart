@@ -78,7 +78,8 @@ class XD_StartJourney extends StatelessWidget {
               height: 146.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/startjourneyguywalking.png'),
                   fit: BoxFit.fill,
                 ),
               ),

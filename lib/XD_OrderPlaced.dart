@@ -267,7 +267,8 @@ class XD_OrderPlaced extends StatelessWidget {
               height: 167.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/spotifyoffersfortoday.png'),
                   fit: BoxFit.fill,
                   colorFilter: new ColorFilter.mode(
                       Colors.black.withOpacity(0.3), BlendMode.dstIn),
@@ -300,7 +301,8 @@ class XD_OrderPlaced extends StatelessWidget {
               height: 166.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/playstoreoffersfortoday.png'),
                   fit: BoxFit.fill,
                   colorFilter: new ColorFilter.mode(
                       Colors.black.withOpacity(0.3), BlendMode.dstIn),
@@ -461,7 +463,8 @@ class XD_OrderPlaced extends StatelessWidget {
               height: 167.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/spotifyoffersfortoday.png'),
                   fit: BoxFit.fill,
                 ),
               ),

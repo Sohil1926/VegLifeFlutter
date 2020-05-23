@@ -291,7 +291,7 @@ class XD_Map extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.elliptical(21.0, 21.0)),
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/person2map.jpg'),
                   fit: BoxFit.cover,
                 ),
                 boxShadow: [
@@ -322,7 +322,7 @@ class XD_Map extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.elliptical(21.0, 21.0)),
                   image: DecorationImage(
-                    image: const AssetImage(''),
+                    image: const AssetImage('assets/images/person1map.jpg'),
                     fit: BoxFit.cover,
                   ),
                   boxShadow: [
@@ -345,7 +345,7 @@ class XD_Map extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.elliptical(21.0, 21.0)),
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/person3map.jpg'),
                   fit: BoxFit.cover,
                 ),
                 boxShadow: [
@@ -367,7 +367,7 @@ class XD_Map extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.elliptical(21.0, 21.0)),
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/person4map.jpg'),
                   fit: BoxFit.cover,
                 ),
                 boxShadow: [

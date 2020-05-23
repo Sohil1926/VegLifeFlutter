@@ -107,7 +107,8 @@ class XD_Shop extends StatelessWidget {
               height: 67.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image:
+                      const AssetImage('assets/images/shopuploadreceipt.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -134,7 +135,7 @@ class XD_Shop extends StatelessWidget {
               height: 82.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/shopcoupons.png'),
                   fit: BoxFit.fill,
                 ),
               ),

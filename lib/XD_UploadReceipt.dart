@@ -64,7 +64,8 @@ class XD_UploadReceipt extends StatelessWidget {
               height: 372.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/uploadreceiptexample.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -80,7 +81,8 @@ class XD_UploadReceipt extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/checkmarkFINALuploadreceipt.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -96,7 +98,8 @@ class XD_UploadReceipt extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(13.0),
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/checkmarkuploadreceipt.png'),
                   fit: BoxFit.fill,
                 ),
               ),

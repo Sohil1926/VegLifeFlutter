@@ -84,7 +84,8 @@ class XD_SignUp extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(11.0),
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/twittericonfourthpage.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -116,7 +117,8 @@ class XD_SignUp extends StatelessWidget {
               height: 28.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/facebookiconfourthpage.png'),
                   fit: BoxFit.fill,
                 ),
               ),

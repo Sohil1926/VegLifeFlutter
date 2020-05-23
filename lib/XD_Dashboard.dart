@@ -448,7 +448,8 @@ class XD_Dashboard extends StatelessWidget {
                     height: 62.0,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: const AssetImage(''),
+                        image: const AssetImage(
+                            'assets/images/dashboardwallet.png'),
                         fit: BoxFit.fill,
                       ),
                     ),
@@ -553,7 +554,7 @@ class XD_Dashboard extends StatelessWidget {
               height: 76.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/dashboardshop.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -568,7 +569,7 @@ class XD_Dashboard extends StatelessWidget {
               height: 76.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/dashboardshop.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -583,7 +584,7 @@ class XD_Dashboard extends StatelessWidget {
               height: 84.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/dashboarddiet.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -610,7 +611,8 @@ class XD_Dashboard extends StatelessWidget {
               height: 79.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image:
+                      const AssetImage('assets/images/dashboardrestaurant.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -625,7 +627,7 @@ class XD_Dashboard extends StatelessWidget {
               height: 66.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/dashboardmap.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -640,7 +642,8 @@ class XD_Dashboard extends StatelessWidget {
               height: 53.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage(
+                      'assets/images/dashboardleaderboard.png'),
                   fit: BoxFit.fill,
                 ),
               ),

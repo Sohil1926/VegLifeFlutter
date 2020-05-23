@@ -96,7 +96,7 @@ class XD_Thankyou extends StatelessWidget {
               height: 224.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/logofifthpage.png'),
                   fit: BoxFit.fill,
                 ),
               ),

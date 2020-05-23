@@ -200,7 +200,7 @@ class XD_Wallet extends StatelessWidget {
               height: 58.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('assets/images/walletmoney.png'),
                   fit: BoxFit.fill,
                 ),
               ),
