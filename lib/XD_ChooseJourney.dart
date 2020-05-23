@@ -5,6 +5,8 @@ import './XD_Dashboard.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:adobe_xd/specific_rect_clip.dart';
 
+import 'XD_Dashboard.dart';
+
 class XD_ChooseJourney extends StatelessWidget {
   XD_ChooseJourney({
     Key key,
@@ -229,6 +231,16 @@ class XD_ChooseJourney extends StatelessWidget {
             ),
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => XD_Dashboard()),
+          );
+        },
+        child: Icon(Icons.arrow_forward_ios),
+        backgroundColor: Colors.green,
       ),
     );
   }

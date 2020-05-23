@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
+import 'XD_Welcome.dart';
+import 'XD_Welcome.dart';
+
 class XD_Welcome1 extends StatelessWidget {
   XD_Welcome1({
     Key key,
@@ -55,6 +58,16 @@ class XD_Welcome1 extends StatelessWidget {
             ),
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => XD_Welcome()),
+          );
+        },
+        child: Icon(Icons.arrow_forward_ios),
+        backgroundColor: Colors.green,
       ),
     );
   }
