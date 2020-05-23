@@ -32,7 +32,7 @@ class Welcome1 extends StatelessWidget {
                   height: 314.0,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: const AssetImage('assets/landingpagelogo.png'),
+                      image:  AssetImage("assets/images/landingpagelogo.png"),
                       fit: BoxFit.fill,
                     ),
                   ),
